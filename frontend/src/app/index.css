@@ -1,0 +1,29 @@
+html {
+    background-color: #f2efe4;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+#app {
+    width: 520px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.header {
+    padding: var(--space-16-s) 0;
+    margin: 0 var(--space-4-s);
+}
+
+.main {
+    margin: 0 var(--space-4-s);
+}
+
+.footer {
+    margin: 0 var(--space-4-s);
+    padding: var(--space-12-s);
+    text-align: center;
+}

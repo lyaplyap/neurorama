@@ -1,0 +1,45 @@
+:root {
+    /* Typography */
+    --font-family-rubik: "Rubik", Inter, sans-serif;
+    --font-family-playfair: "Playfair Display", Inter, sans-serif;
+
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --font-weight-extrabold: 800;
+    --font-weight-black: 900;
+
+    --font-style-normal: normal;
+    --font-style-italic: italic;
+
+    /* Spaces */
+    --space-s: 2px;
+    --space-2-s: 4px;
+    --space-3-s: 6px;
+    --space-4-s: 8px;
+    --space-6-s: 12px;
+    --space-8-s: 16px;
+    --space-10-s: 20px;
+    --space-12-s: 24px;
+    --space-16-s: 32px;
+    --space-18-s: 36px;
+    --space-24-s: 48px;
+    --space-32-s: 64px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    width: 100%;
+    height: 100%;
+}
+
+#root {
+    font-family: var(--font-family-rubik);
+    font-weight: var(--font-weight-regular);
+    font-style: var(--font-style-normal);
+}

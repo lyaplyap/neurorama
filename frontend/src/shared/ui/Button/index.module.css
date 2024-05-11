@@ -1,0 +1,65 @@
+.button {
+    border: none;
+    outline: none;
+    padding: 0;
+    font: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: var(--color-text-secondary);
+    transition: transform 0.05s ease-in-out;
+    width: fit-content;
+    font-size: var(--size-s);
+    line-height: normal;
+
+    padding: var(--space-6-s);
+    border-radius: 12px;
+}
+
+.button:active {
+    transform: scale(0.96);
+}
+
+.view__action {
+    background-color: #100f0d;
+}
+
+.view__clear {
+    background-color: transparent;
+}
+
+.view__default {
+    background-color: #fff;
+    border: 1px solid #e9e4d1;
+}
+
+.width__auto {
+    width: fit-content;
+}
+
+.width__max {
+    width: 100%;
+}
+
+.align__left {
+    justify-content: left;
+    text-align: left;
+}
+
+.align__center {
+    justify-content: center;
+    text-align: center;
+}
+
+.align__right {
+    justify-content: right;
+    text-align: right;
+}
+
+.icon, .text {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

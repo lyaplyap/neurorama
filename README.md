@@ -4,4 +4,4 @@
 
 Читайте нас на [neurorama.press](https://neurorama.press).
 
-**P.S.** Вдохновлено (и дообучено) [ИА "Панорама"](https://panorama.pub).
+**P.S.** Вдохновлено (и дообучено благодаря) [ИА "Панорама"](https://panorama.pub).
